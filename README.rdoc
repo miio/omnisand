@@ -5,8 +5,12 @@ Simple Devise + Omniauth bridge
 == Install
 
 
-gem 'devise'
-gem 'omnisand'
+* gem 'devise'
+* gem 'omniauth'
+* gem 'omniauth-twitter'
+* gem 'omniauth-github'
+* gem 'omniauth-facebook'
+* gem 'omnisand', git: 'https://github.com/miio/omnisand.git'
 
 * bundle exec rails g devise:install
 
