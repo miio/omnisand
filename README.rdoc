@@ -1,0 +1,16 @@
+= Omnisand
+
+Simple Devise + Omniauth bridge
+
+== Install
+
+
+gem 'devise'
+gem 'omnisand'
+
+* bundle exec rails g devise:install
+
+* bundle exec rake omnisand:install:migrations
+
+* bundle exec rake db:migrate
+
