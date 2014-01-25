@@ -16,7 +16,7 @@ class User < ActiveRecord::Base
 
   def get_args omniauth
     data = omniauth['extra']['raw_info']
-    case omniauth['privider']
+    case omniauth['provider']
     when 'twitter' then
       return {
         provider: omniauth['provider'], uid: omniauth['uid'],
